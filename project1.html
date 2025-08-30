@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <!-- Header & Navigation (Day 2) -->
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a> |
+            <a href="#skills">Skills</a> |
+            <a href="#education">Education</a> |
+            <a href="#projects">My Projects</a> |
+            <a href="#contact">Contact</a> |
+            <a href="#feedback">Feedback</a>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- About Section (Day 2) -->
+    <section id="about">
+        <h2>About Me</h2>
+         <img src="profile.jpg" alt="My Profile Picture" width="250">
+        <h3>Hello! I am Tejas, a passionate learner and aspiring developer. This portfolio showcases my skills and projects.</h3>
+    </section>
+
+    <!-- Skills Table (Day 6) -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Advanced</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Advanced</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Education Table (Day 6) -->
+    <section id="education">
+        <h2>Education</h2>
+        <table>
+            <tr>
+                <th>Year</th>
+                <th>Qualification</th>
+                <th>Institute</th>
+            </tr>
+            <tr>
+                <td>2020</td>
+                <td>High School</td>
+                <td>ABC School</td>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Bachelor in Computer Science</td>
+                <td>XYZ College</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- My Projects (Day 6) -->
+    <section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project">
+        <h3>Semantic Tags</h3>
+        <a href="day2.html">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>Form Validation</h3>
+        <a href="day5.html">View Project</a>
+    </div>
+
+    <div class="project">
+        <h3>Table Tags</h3>
+        <a href="day3.html">View Project</a>
+    </div>
+</section>
+    <!-- Contact Form (Day 3 & 5) -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <label>Name:</label>
+            <input type="text" name="name" required><br><br>
+
+            <label>Email:</label>
+            <input type="email" name="email" required><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password" minlength="6" maxlength="12" required><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Feedback Form (Day 4 & 5) -->
+    <section id="feedback">
+        <h2>Feedback Form</h2>
+        <form>
+            <label>Your Feedback:</label><br>
+            <textarea name="feedback" rows="4" cols="40" required></textarea><br><br>
+
+            <label>Rate My Portfolio:</label>
+            <select name="rating" required>
+                <option>--Select--</option>
+                <option>Excellent</option>
+                <option>Very Good</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select><br><br>
+
+            <input type="submit" value="Send Feedback">
+        </form>
+    </section>
+
+    <!-- Footer (Day 2) -->
+    <footer>
+        <p>&copy; 2025 Tejas Panchbhai | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
